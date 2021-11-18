@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Fira+Sans+Extra+Condensed:ital,wght@0,300;1,200&family=Maven+Pro&family=Permanent+Marker&family=Poiret+One&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Fira+Sans+Extra+Condensed:wght@300&family=Lato:wght@300&family=Maven+Pro&family=Permanent+Marker&family=Poiret+One&family=Roboto:wght@300&family=Shippori+Antique&display=swap');
+*{
+    margin: 0px;
+    
+}
+
+body{
+    background-image: url('backbook.jpg');
+    background-color: rgba(147, 48, 48, 0.25);
+    background-blend-mode: lighten;
+    background-size: contain;
+}
+
+.header{
+    height:800px;
+    width:100%;
+}
+
+.sidemenu{
+    height:820px;
+    width:20%;
+    float: left;
+    background-color: rgba(88, 57, 57, 0.8);
+    border-radius: 5px;
+    
+
+
+}
+
+.content{
+    width:80%;
+    float: right;
+    height:820px;
+
+}
+
+.subcontent{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    height:520px;
+    margin-top:80px;
+    margin-left:0px;
+    background-color:rgba(221, 213, 213,0.78);
+}
+
+
+.img2{
+    
+    float: left;
+    height:90%;
+    width:35%;
+    margin-top: 25px;
+    margin-left: 20px;
+
+
+
+
+
+}
+
+.bookdetails{
+
+    float:right;
+    width:63%;
+    height:85%;
+    margin-top:30px;
+}
+.bookstore{
+    background-color: rgba(61, 33, 33, 0.67);
+    height:80px;
+
+}
+
+h3{
+    padding:10px;
+    font-family: 'Lato', sans-serif;
+    font-size:35px;
+    line-height:60px;
+    color:rgb(181, 181, 187);
+    
+    
+    
+}
+.side1{
+    /* display:block; */
+    height:200px;
+    width:100%;
+    margin-top:20px;
+
+}
+.img1{
+
+    float: left;
+    height:130px;
+    width:30%;
+    margin-top: 20px;
+    margin-left: 10px;
+
+
+}
+.icontent{
+    float: left;
+    width:65%;
+    height:170px;
+    margin-right: 0;
+
+
+
+
+}
+
+h4{
+    margin-left:10px;
+    margin-top:40px;
+    font-family: 'Lato', sans-serif;
+    font-size:17px;
+    font-style: bold;
+    color:rgb(179, 179, 179);
+}
+.subh4{
+    float:right;
+    margin-right:24px;
+    margin-top:0px;
+    font-family: 'Lato', sans-serif;
+    font-size:28px;
+    font-style: bolder;
+    color:rgb(40, 35, 62);
+
+}
+.subh5{
+    font-family: 'Lato', sans-serif;
+    margin-left:13px;
+    margin-top:12px;
+    font-size:20px;
+    font-style: bolder;
+    color:rgb(83, 82, 82);
+    text-align:justify;
+    
+
+}
+
+h5{
+    font-family: 'Lato', sans-serif;
+    margin-left:13px;
+    margin-top:8px;
+    font-style: bolder;
+    color:rgb(204, 202, 202);
+
+}
+
+.sidesubhead{
+
+    margin-left:15px;
+    margin-top:40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:17px;
+    
+    color:rgb(169, 169, 169);
+
+}
+img{
+    height:100%;
+    width:100%;
+
+
+}
+
+
+.footer{
+    height:900px;
+      
+    width:100%;
+    margin-top:20px;
+    
+    
+    
+    
+}
+
+.book-heading{
+    bottom:40px;
+    text-align: left;
+    height:260px;
+    line-height:120px;
+    font-size:22px;
+    margin-right:0px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:rgba(255, 255, 255, 0.6);
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 200px;
+    letter-spacing: 1px;;
+
+}
+.book{
+    width: 67%;
+height: 670px;
+display:inline;
+display:initial;
+border: 3px solid rgba(140, 136, 136,0.6);
+position: absolute;
+top:950px;
+left:250px;
+text-align: center; 
+background-color: white;
+border-radius: 10px;
+    
+
+}
+h1{
+    margin-left:20px;
+}
+
+
+
+.left-book{
+    display:initial;
+    float: left;
+    height:81%;
+    width:45%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+    margin:30px;
+    margin-right:2px;
+    margin-left:40px;
+    margin-bottom:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    margin:0px 1px 20px 20px;
+    font-size:60px;
+    text-align: right;
+    font-weight: lighter;
+    font-family: 'Poiret One', cursive;
+}
+.right-book{
+    display:initial;
+    float:right;
+    height:81%;
+    width:45%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+    margin:30px;
+    margin-left:2px;
+    margin-right:40px;
+    margin-bottom:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 2px solid rgba(101, 15, 15, 0.6);
+   
+    padding-left:10px;
+    
+}
+hr{
+    border: 0; 
+    border-top:4px solid rgba(74, 20, 20, 0.6);
+    
+    width:85%;
+    margin-left:8%;
+    margin-top:0px;
+    
+    
+
+}
+.left-book hr{
+    border: 0; 
+    border-top:2px solid rgba(44, 43, 43, 0.9);
+    
+    width:80%;
+    margin-left:15%;
+    
+    margin-bottom:10px;
+
+}
+/* Initially the PAGE-2 contents are set to none so it is not visible IT SHOULD ONLY BE VISIBLE AFTER CHECKBOXING */
+.left-book2{
+    display:none;
+}
+.right-book2{
+    display:none;
+}
+
+input:checked ~ .left-book2{
+    display:initial; 
+    float: left;
+    height:81%;
+    width:45%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+    margin:30px;
+    margin-right:2px;
+    margin-left:40px;
+    margin-bottom:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input:checked ~ .right-book2{
+    display:initial;
+    float:right;
+    height:81%;
+    width:45%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14px;
+    margin:30px;
+    margin-left:2px;
+    margin-right:40px;
+    margin-bottom:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 2px solid rgba(101, 15, 15, 0.6);
+   
+    padding-left:10px;
+
+}
+
+input:checked ~ .left-book{
+    display: none;
+}
+input:checked ~ .right-book{
+    display: none;
+}
+.btns{
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+[type="checkbox"]{
+    width:15px;
+    height:15px;
+    transform:scale(1.8);
+    margin-left:10px;
+}
+
+p::first-letter{
+    font-size: 30px;
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+}
